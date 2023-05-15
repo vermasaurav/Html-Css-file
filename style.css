@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  transition: all 100ms;
+}
+.nav {
+  position: relative;
+  width: 85%;
+  height: 15vh;
+  margin: auto;
+  /* min-height: 90vh; */
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  /* border: 2px solid red; */
+}
+.logo {
+  height: 80px;
+  width: 80px;
+  /* border: 2px solid red; */
+  margin-left: 25px;
+  margin-top: 15px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* border: 2px solid red; */
+  /* text-decoration: none; */
+}
+ul li {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  margin-right: 5rem;
+  /* text-decoration: none; */
+}
+ul li a {
+  text-decoration: none;
+  color: grey;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+ul li a:hover {
+  color: #00704a;
+}
+
+.text {
+  margin-left: 10rem;
+  height: 50%;
+  width: 500px;
+  font-family: "Poppins", sans-serif;
+}
+.circle {
+  height: 800px;
+  width: 800px;
+
+  background-color: #00704a;
+  z-index: 1;
+
+  border-top-left-radius: 80%;
+
+  transform: translate(20%, 40%);
+}
+.hero-image {
+  display: flex;
+
+  align-items: end;
+  height: 100%;
+  overflow: hidden;
+}
+.content {
+  height: 85vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-img {
+  height: 50%;
+  position: relative;
+  top: -5%;
+  left: 10%;
+
+  z-index: 2;
+}
+
+.link-tag {
+  position: absolute;
+  right: 170px;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  height: 90px;
+  justify-content: space-between;
+}
+.three-pik {
+  position: relative;
+  top: -30px;
+  left: -154px;
+}
+.pic1 {
+  height: 100px;
+  padding: 15px;
+}
+.pic2 {
+  height: 100px;
+  padding: 15px;
+  position: relative;
+  top: -20px;
+}
+.pic3 {
+  height: 100px;
+  padding: 15px;
+}
+.span1 {
+  color: #00704a;
+}
+.btn {
+  background-color: #00704a;
+  height: 35px;
+  color: white;
+  width: 90px;
+  border-radius: 50px;
+  position: relative;
+  left: -2px;
+  border: none;
+  top: 10px;
+}
+.pic1:hover {
+  translate: 0px -20px;
+}
+.pic2:hover {
+  translate: 0px -20px;
+}
+.pic3:hover {
+  translate: 0px -20px;
+}
